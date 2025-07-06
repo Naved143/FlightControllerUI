@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/UI/main.qml</file>
+        <file>src/UI/Pages/Graphs.qml</file>
+        <file>src/UI/Pages/Dashboard.qml</file>
+        <file>src/UI/Pages/Settings.qml</file>
+        <file>src/UI/Components/ArtificialHorizon.qml</file>
+    </qresource>
+</RCC>

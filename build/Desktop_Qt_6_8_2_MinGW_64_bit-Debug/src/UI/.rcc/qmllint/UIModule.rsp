@@ -1,0 +1,12 @@
+--bare
+-I
+C:/Qt/6.8.2/mingw_64/qml
+--resource
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/UI/.qt/rcc/qmake_FlightControllerUI.qrc
+--resource
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/UI/.qt/rcc/UIModule_raw_qml_0.qrc
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/main.qml
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Pages/Graphs.qml
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Pages/Dashboard.qml
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Pages/Settings.qml
+C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Components/ArtificialHorizon.qml

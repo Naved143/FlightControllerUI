@@ -1,0 +1,11 @@
+module FlightControllerUI
+linktarget UIModuleplugin
+optional plugin UIModuleplugin
+classname FlightControllerUIPlugin
+typeinfo UIModule.qmltypes
+prefer :/FlightControllerUI/
+Graphs 1.0 Pages/Graphs.qml
+Dashboard 1.0 Pages/Dashboard.qml
+Settings 1.0 Pages/Settings.qml
+ArtificialHorizon 1.0 Components/ArtificialHorizon.qml
+

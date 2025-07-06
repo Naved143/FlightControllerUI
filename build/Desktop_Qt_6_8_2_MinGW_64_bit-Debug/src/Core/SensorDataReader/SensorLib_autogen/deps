@@ -1,0 +1,5 @@
+SensorLib_autogen/timestamp: \
+	C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/Core/SensorDataReader/CMakeLists.txt \
+	C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/Core/SensorDataReader/SensorReader.cpp \
+	C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/Core/SensorDataReader/SensorReader.hpp \
+	C:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/Core/SensorDataReader/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "SensorLib_autogen_timestamp_deps::@d24571ffbdad3d40f204",
+	"isGeneratorProvided" : true,
+	"name" : "SensorLib_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/Core/SensorDataReader",
+		"source" : "src/Core/SensorDataReader"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

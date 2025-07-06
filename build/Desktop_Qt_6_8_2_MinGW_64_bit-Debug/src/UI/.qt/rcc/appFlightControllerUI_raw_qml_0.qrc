@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FlightControllerUI/">
+    <file alias="main.qml">C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/main.qml</file>
+  </qresource>
+</RCC>
+

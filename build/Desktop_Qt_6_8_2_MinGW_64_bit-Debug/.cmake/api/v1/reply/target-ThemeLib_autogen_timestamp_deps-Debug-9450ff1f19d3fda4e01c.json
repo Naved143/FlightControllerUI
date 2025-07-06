@@ -1,0 +1,27 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/Theme/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "ThemeLib_autogen_timestamp_deps::@5547be5e115697215706",
+	"isGeneratorProvided" : true,
+	"name" : "ThemeLib_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/Theme",
+		"source" : "src/Theme"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

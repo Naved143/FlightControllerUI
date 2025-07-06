@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/FlightControllerUI">
+    <file alias="qmldir">C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/FlightControllerUI/qmldir</file>
+  </qresource>
+</RCC>
+

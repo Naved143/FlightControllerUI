@@ -1,0 +1,457 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						21,
+						26
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6,
+						9
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/AppController",
+					"jsonFile" : "directory-src.AppController-Debug-166b60b1848acc8111b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/AppController",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "src/Core",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-src.Core-Debug-d9729710ba011115df3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Core"
+				},
+				{
+					"build" : "src/Core/SensorDataReader",
+					"jsonFile" : "directory-src.Core.SensorDataReader-Debug-2b09860c10c7410ad092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/Core/SensorDataReader",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "src/UI",
+					"jsonFile" : "directory-src.UI-Debug-61e367a9101cd87ca2b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/UI",
+					"targetIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22,
+						23,
+						24,
+						25,
+						27
+					]
+				},
+				{
+					"build" : "src/Assets",
+					"childIndexes" : 
+					[
+						7,
+						8
+					],
+					"jsonFile" : "directory-src.Assets-Debug-8288d894c03311e76076.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Assets"
+				},
+				{
+					"build" : "src/Assets/Icons",
+					"jsonFile" : "directory-src.Assets.Icons-Debug-6ee2147eb9d55d2e7dc8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "src/Assets/Icons"
+				},
+				{
+					"build" : "src/Assets/Images",
+					"jsonFile" : "directory-src.Assets.Images-Debug-3bf29758b6e2cc07c2b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 0,
+					"source" : "src/Assets/Images"
+				},
+				{
+					"build" : "src/Theme",
+					"jsonFile" : "directory-src.Theme-Debug-df5660d49bf69e615ae9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/Theme",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"name" : "FlightControllerUI",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "App::@ef6c9079813134bd5ff3",
+					"jsonFile" : "target-App-Debug-70e5d88c170dc9bcb9d2.json",
+					"name" : "App",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "App_autogen::@ef6c9079813134bd5ff3",
+					"jsonFile" : "target-App_autogen-Debug-0a943dc8572874c22dd7.json",
+					"name" : "App_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "App_autogen_timestamp_deps::@ef6c9079813134bd5ff3",
+					"jsonFile" : "target-App_autogen_timestamp_deps-Debug-49f56913af4f393b281a.json",
+					"name" : "App_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SensorLib::@d24571ffbdad3d40f204",
+					"jsonFile" : "target-SensorLib-Debug-ed6b5a414cef624d8b93.json",
+					"name" : "SensorLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SensorLib_autogen::@d24571ffbdad3d40f204",
+					"jsonFile" : "target-SensorLib_autogen-Debug-b2a11914eafb1ec86621.json",
+					"name" : "SensorLib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SensorLib_autogen_timestamp_deps::@d24571ffbdad3d40f204",
+					"jsonFile" : "target-SensorLib_autogen_timestamp_deps-Debug-6354bd0fc81649577286.json",
+					"name" : "SensorLib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ThemeLib::@5547be5e115697215706",
+					"jsonFile" : "target-ThemeLib-Debug-8ef08da2a820d3ac2133.json",
+					"name" : "ThemeLib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ThemeLib_autogen::@5547be5e115697215706",
+					"jsonFile" : "target-ThemeLib_autogen-Debug-98c39753403490c3d75c.json",
+					"name" : "ThemeLib_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ThemeLib_autogen_timestamp_deps::@5547be5e115697215706",
+					"jsonFile" : "target-ThemeLib_autogen_timestamp_deps-Debug-9450ff1f19d3fda4e01c.json",
+					"name" : "ThemeLib_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule-Debug-d7ce662090fdefec479d.json",
+					"name" : "UIModule",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_autogen::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_autogen-Debug-1caf5f7abf223710e1de.json",
+					"name" : "UIModule_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_autogen_timestamp_deps::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_autogen_timestamp_deps-Debug-e66ecc29d1cbbe29cc0c.json",
+					"name" : "UIModule_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_copy_qml::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_copy_qml-Debug-bdb759fb35b87c2e3ff6.json",
+					"name" : "UIModule_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_copy_res::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_copy_res-Debug-813fbb126b885c0d0bfe.json",
+					"name" : "UIModule_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_qmllint::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_qmllint-Debug-4b1797739dfa3a0958da.json",
+					"name" : "UIModule_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_qmllint_json::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_qmllint_json-Debug-cdc5cbb4238586d15e1b.json",
+					"name" : "UIModule_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_qmllint_module::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_qmllint_module-Debug-ee7325a25f38acbd0d5f.json",
+					"name" : "UIModule_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModule_qmltyperegistration::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModule_qmltyperegistration-Debug-940ad07ce49eb37458ab.json",
+					"name" : "UIModule_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModuleplugin::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModuleplugin-Debug-9d8f844ea0495e3ce726.json",
+					"name" : "UIModuleplugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModuleplugin_autogen::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModuleplugin_autogen-Debug-7654dcf5f4ceb996dcaf.json",
+					"name" : "UIModuleplugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "UIModuleplugin_autogen_timestamp_deps::@e6812f907734570e2a17",
+					"jsonFile" : "target-UIModuleplugin_autogen_timestamp_deps-Debug-5ca624a904118dba11be.json",
+					"name" : "UIModuleplugin_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-025a5a782ca579a1de63.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "all_qmllint::@e6812f907734570e2a17",
+					"jsonFile" : "target-all_qmllint-Debug-2379afdbaef11a09e4be.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "all_qmllint_json::@e6812f907734570e2a17",
+					"jsonFile" : "target-all_qmllint_json-Debug-b8d8910838303ee4e6f9.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "all_qmllint_module::@e6812f907734570e2a17",
+					"jsonFile" : "target-all_qmllint_module-Debug-561e9fafd6a676f78b4e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "all_qmltyperegistrations::@e6812f907734570e2a17",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-c4b9df60c91b3680b2de.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_UIModule_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_UIModule_aotstats_target-Debug-2518d5509d05671dee56.json",
+					"name" : "module_UIModule_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "qt_internal_plugins::@e6812f907734570e2a17",
+					"jsonFile" : "target-qt_internal_plugins-Debug-8e28a07c73b58bfd4ca0.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/naved/OneDrive/Documents/FlightControllerUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

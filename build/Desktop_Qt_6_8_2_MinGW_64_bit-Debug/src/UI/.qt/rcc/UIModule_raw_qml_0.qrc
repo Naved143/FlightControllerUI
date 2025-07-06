@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/FlightControllerUI/">
+    <file alias="main.qml">C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/main.qml</file>
+    <file alias="Pages/Graphs.qml">C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Pages/Graphs.qml</file>
+    <file alias="Pages/Dashboard.qml">C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Pages/Dashboard.qml</file>
+    <file alias="Pages/Settings.qml">C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Pages/Settings.qml</file>
+    <file alias="Components/ArtificialHorizon.qml">C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/UI/Components/ArtificialHorizon.qml</file>
+  </qresource>
+</RCC>
+

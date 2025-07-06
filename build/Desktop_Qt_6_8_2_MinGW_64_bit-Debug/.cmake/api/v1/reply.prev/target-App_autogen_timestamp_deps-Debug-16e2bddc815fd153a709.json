@@ -1,0 +1,34 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"src/AppController/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "UIModule::@e6812f907734570e2a17"
+		}
+	],
+	"id" : "App_autogen_timestamp_deps::@ef6c9079813134bd5ff3",
+	"isGeneratorProvided" : true,
+	"name" : "App_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : "src/AppController",
+		"source" : "src/AppController"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
