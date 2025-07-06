@@ -5,7 +5,7 @@ add_executable(App
 target_link_libraries(App
   PRIVATE Qt6::Core
   PRIVATE Qt6::Quick
-  # UIModule
+  UIModule
 )
 
 

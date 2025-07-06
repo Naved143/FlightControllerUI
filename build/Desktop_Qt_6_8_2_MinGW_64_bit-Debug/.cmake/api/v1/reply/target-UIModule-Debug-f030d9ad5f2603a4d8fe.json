@@ -950,11 +950,11 @@
 			"id" : "UIModule_copy_res::@e6812f907734570e2a17"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "UIModule_autogen::@e6812f907734570e2a17"
+			"id" : "UIModule_autogen_timestamp_deps::@e6812f907734570e2a17"
 		},
 		{
-			"id" : "UIModule_autogen_timestamp_deps::@e6812f907734570e2a17"
+			"backtrace" : 0,
+			"id" : "UIModule_autogen::@e6812f907734570e2a17"
 		}
 	],
 	"id" : "UIModule::@e6812f907734570e2a17",

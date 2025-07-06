@@ -148,7 +148,7 @@ build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 #############################################
 # Order-only phony target for App
 
-build cmake_object_order_depends_target_App: phony || src/AppController/App_autogen src/AppController/App_autogen/mocs_compilation.cpp src/AppController/App_autogen/timestamp src/AppController/App_autogen_timestamp_deps
+build cmake_object_order_depends_target_App: phony || cmake_object_order_depends_target_UIModule src/AppController/App_autogen src/AppController/App_autogen/mocs_compilation.cpp src/AppController/App_autogen/timestamp src/AppController/App_autogen_timestamp_deps
 
 build src/AppController/CMakeFiles/App.dir/App_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__App_unscanned_Debug C$:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/AppController/App_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_App
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -174,9 +174,9 @@ build src/AppController/CMakeFiles/App.dir/main.cpp.obj: CXX_COMPILER__App_unsca
 #############################################
 # Link the executable src\AppController\App.exe
 
-build src/AppController/App.exe: CXX_EXECUTABLE_LINKER__App_Debug src/AppController/CMakeFiles/App.dir/App_autogen/mocs_compilation.cpp.obj src/AppController/CMakeFiles/App.dir/main.cpp.obj | C$:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Core.a || src/AppController/App_autogen src/AppController/App_autogen_timestamp_deps
+build src/AppController/App.exe: CXX_EXECUTABLE_LINKER__App_Debug src/AppController/CMakeFiles/App.dir/App_autogen/mocs_compilation.cpp.obj src/AppController/CMakeFiles/App.dir/main.cpp.obj | src/UI/libUIModule.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Core.a || src/AppController/App_autogen src/AppController/App_autogen_timestamp_deps src/UI/UIModule.dll
   FLAGS = -DQT_QML_DEBUG -g
-  LINK_LIBRARIES = C:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a  -lshell32  C:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  C:/Qt/6.8.2/mingw_64/lib/libQt6Network.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lws2_32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = src/UI/libUIModule.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  C:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Network.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lws2_32  -lshell32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = src\AppController\CMakeFiles\App.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -212,7 +212,7 @@ build src/AppController/rebuild_cache: phony src/AppController/CMakeFiles/rebuil
 #############################################
 # Utility command for App_autogen_timestamp_deps
 
-build src/AppController/App_autogen_timestamp_deps: phony
+build src/AppController/App_autogen_timestamp_deps: phony src/UI/UIModule.dll
 
 
 #############################################
@@ -224,7 +224,7 @@ build src/AppController/App_autogen: phony src/AppController/CMakeFiles/App_auto
 #############################################
 # Custom command for src\AppController\App_autogen\timestamp
 
-build src/AppController/App_autogen/timestamp src/AppController/App_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}src/AppController/App_autogen/timestamp ${cmake_ninja_workdir}src/AppController/App_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/moc.exe || src/AppController/App_autogen_timestamp_deps
+build src/AppController/App_autogen/timestamp src/AppController/App_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}src/AppController/App_autogen/timestamp ${cmake_ninja_workdir}src/AppController/App_autogen/mocs_compilation.cpp: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/moc.exe || src/AppController/App_autogen_timestamp_deps src/UI/UIModule.dll src/UI/UIModule_autogen src/UI/UIModule_autogen_timestamp_deps src/UI/UIModule_copy_qml src/UI/UIModule_copy_res
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\naved\OneDrive\Documents\FlightControllerUI\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\src\AppController && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/AppController/CMakeFiles/App_autogen.dir/AutogenInfo.json Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/AppController/App_autogen/timestamp && C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_transform_depfile Ninja gccdepfile C:/Users/naved/OneDrive/Documents/FlightControllerUI C:/Users/naved/OneDrive/Documents/FlightControllerUI/src/AppController C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/AppController C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/AppController/App_autogen/deps C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/d/bf0d7f7b60112d234eada958ac1e3aee02f9cec1db7945df542b0dba1f5d43e9.d"
   DESC = Automatic MOC for target App
   depfile = CMakeFiles\d\bf0d7f7b60112d234eada958ac1e3aee02f9cec1db7945df542b0dba1f5d43e9.d
@@ -235,7 +235,7 @@ build src/AppController/App_autogen/timestamp src/AppController/App_autogen/mocs
 #############################################
 # Phony custom command for src\AppController\CMakeFiles\App_autogen
 
-build src/AppController/CMakeFiles/App_autogen | ${cmake_ninja_workdir}src/AppController/CMakeFiles/App_autogen: phony src/AppController/App_autogen/timestamp || src/AppController/App_autogen_timestamp_deps
+build src/AppController/CMakeFiles/App_autogen | ${cmake_ninja_workdir}src/AppController/CMakeFiles/App_autogen: phony src/AppController/App_autogen/timestamp || src/AppController/App_autogen_timestamp_deps src/UI/UIModule.dll src/UI/UIModule_autogen src/UI/UIModule_autogen_timestamp_deps src/UI/UIModule_copy_qml src/UI/UIModule_copy_res
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:

@@ -1,6 +1,6 @@
 set(__QT_DEPLOY_TARGET_App_FILE C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/AppController/App.exe)
 set(__QT_DEPLOY_TARGET_App_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_App_RUNTIME_DLLS C:/Qt/6.8.2/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Network.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_App_RUNTIME_DLLS C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/UI/UIModule.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Quick.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6QmlMeta.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6QmlWorkerScript.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6QmlModels.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6OpenGL.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Qml.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Network.dll;C:/Qt/6.8.2/mingw_64/bin/Qt6Core.dll)
 set(__QT_DEPLOY_TARGET_SensorLib_FILE C:/Users/naved/OneDrive/Documents/FlightControllerUI/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/src/Core/SensorDataReader/libSensorLib.dll)
 set(__QT_DEPLOY_TARGET_SensorLib_TYPE SHARED_LIBRARY)
 set(__QT_DEPLOY_TARGET_SensorLib_RUNTIME_DLLS )

@@ -33,10 +33,10 @@
 			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
-			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
-			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake",
+			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
 			"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
@@ -166,7 +166,7 @@
 			{
 				"command" : 3,
 				"file" : 11,
-				"line" : 58,
+				"line" : 55,
 				"parent" : 22
 			},
 			{
@@ -198,7 +198,7 @@
 			{
 				"command" : 3,
 				"file" : 13,
-				"line" : 55,
+				"line" : 58,
 				"parent" : 28
 			},
 			{
@@ -245,9 +245,9 @@
 			},
 			{
 				"command" : 3,
-				"file" : 11,
+				"file" : 13,
 				"line" : 46,
-				"parent" : 22
+				"parent" : 28
 			},
 			{
 				"file" : 18,
@@ -451,11 +451,15 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "App_autogen::@ef6c9079813134bd5ff3"
+			"backtrace" : 2,
+			"id" : "UIModule::@e6812f907734570e2a17"
 		},
 		{
 			"id" : "App_autogen_timestamp_deps::@ef6c9079813134bd5ff3"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "App_autogen::@ef6c9079813134bd5ff3"
 		}
 	],
 	"id" : "App::@ef6c9079813134bd5ff3",
@@ -470,6 +474,11 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "src\\UI\\libUIModule.a",
+				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
@@ -493,16 +502,6 @@
 			},
 			{
 				"backtrace" : 10,
-				"fragment" : "C:\\Qt\\6.8.2\\mingw_64\\lib\\libQt6Qml.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 25,
-				"fragment" : "-lshell32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 10,
 				"fragment" : "C:\\Qt\\6.8.2\\mingw_64\\lib\\libQt6OpenGL.a",
 				"role" : "libraries"
 			},
@@ -512,22 +511,22 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 31,
+				"backtrace" : 25,
 				"fragment" : "-ld3d11",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 31,
+				"backtrace" : 25,
 				"fragment" : "-ldxgi",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 31,
+				"backtrace" : 25,
 				"fragment" : "-ldxguid",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 31,
+				"backtrace" : 25,
 				"fragment" : "-ld3d12",
 				"role" : "libraries"
 			},
@@ -537,7 +536,12 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 25,
+				"backtrace" : 10,
+				"fragment" : "C:\\Qt\\6.8.2\\mingw_64\\lib\\libQt6Qml.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
 				"fragment" : "C:\\Qt\\6.8.2\\mingw_64\\lib\\libQt6Network.a",
 				"role" : "libraries"
 			},
@@ -559,6 +563,11 @@
 			{
 				"backtrace" : 46,
 				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "-lshell32",
 				"role" : "libraries"
 			},
 			{
